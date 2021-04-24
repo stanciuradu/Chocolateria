@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0px;
+  margin:0px;
+  font-family:'Original Surfer', cursive;
+}
+header img{
+  width: 12rem;
+}
+.banner{
+  display: flex;
+}
+.banner h2{
+  color: rgba(128,21,21);
+  width: 94%;
+  margin-top: 32px;
+  margin-left: 15px;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  background-color: rgba(170,57,57);
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+nav li{
+  font-size: 25px;
+
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li:hover{
+  background-color: pink;
+}
+.container{
+  margin: 0 auto;
+  text-align: center;
+  width: 76rem;
+  height: 22rem;
+  background-image: url('https://i.imgur.com/lAzIKHB.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3rem;
+
+}
+.container p{
+  color: white;
+  font-size: 25px;
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+  align-items: center;
+  padding-top: 8rem;
+}
+main{
+  margin: 3% 10%;
+  padding: 4% 10%;
+  background-color:rgba(255,170,170);
+}
+.sectiune h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: azure;
+  text-align: center;
+}
+.subsol{
+  border: 5px solid pink;
+  padding: 20px 20px;
+  background-color: black;
+  display: grid;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 10fr 10fr;
+  justify-items:center;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+form input, textarea{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+form h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+label{
+  font-weight: bold;
+}
+.box img{
+  width: 250px;
+  border-radius: 2rem;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+
+}
+#button{
+  margin-top: 10px;
+}
