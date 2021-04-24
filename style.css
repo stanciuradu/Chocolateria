@@ -1,27 +1,33 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   padding: 0px;
   margin:0px;
   font-family:'Original Surfer', cursive;
 }
-header img{
+
+header img {
   width: 12rem;
 }
-.banner{
+
+.banner {
   display: flex;
 }
-.banner h2{
+
+.banner h2 {
   color: rgba(128,21,21);
   width: 94%;
   margin-top: 32px;
   margin-left: 15px;
 }
-nav ul li{
+
+nav ul li {
   list-style-type: none;
 }
-nav ul{
+
+nav ul {
   display: flex;
   justify-content: space-around;
   padding-left: 0px;
@@ -29,18 +35,21 @@ nav ul{
   margin-top: 3px;
   margin-bottom: 0px;
 }
-nav li{
-  font-size: 25px;
 
+nav li {
+  font-size: 25px;
 }
-nav a{
+
+nav a {
   text-decoration: none;
   color: white;
 }
-nav ul li:hover{
+
+nav ul li:hover {
   background-color: pink;
 }
-.container{
+
+.container {
   margin: 0 auto;
   text-align: center;
   width: 76rem;
@@ -49,9 +58,9 @@ nav ul li:hover{
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 3rem;
-
 }
-.container p{
+
+.container p {
   color: white;
   font-size: 25px;
   margin-top: 0.5rem;
@@ -59,18 +68,20 @@ nav ul li:hover{
   align-items: center;
   padding-top: 8rem;
 }
-main{
+
+main {
   margin: 3% 10%;
   padding: 4% 10%;
   background-color:rgba(255,170,170);
 }
-.sectiune h1{
+
+.sectiune h1 {
   font-size: 1.5rem;
   font-weight: bold;
   color: azure;
   text-align: center;
 }
-.subsol{
+.subsol {
   border: 5px solid pink;
   padding: 20px 20px;
   background-color: black;
@@ -79,33 +90,39 @@ main{
   grid-template-columns: 10fr 10fr;
   justify-items:center;
 }
-footer a{
+
+footer a {
   color: white;
   text-decoration: none;
   font-size: 25px;
 }
-form input, textarea{
+
+form input, textarea {
   display: table;
   margin: 0 auto;
   text-align: center;
 }
-form h2{
+
+form h2 {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
 }
-label{
+
+label {
   font-weight: bold;
 }
-.box img{
+
+.box img {
   width: 250px;
   border-radius: 2rem;
 }
-.box{
+
+.box {
   display: flex;
   justify-content: space-around;
-
 }
-#button{
+
+#button {
   margin-top: 10px;
 }
