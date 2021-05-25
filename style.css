@@ -4,8 +4,8 @@
 
 body {
   padding: 0px;
-  margin:0px;
-  font-family:'Original Surfer', cursive;
+  margin: 0px;
+  font-family: "Original Surfer", cursive;
 }
 
 header img {
@@ -17,7 +17,7 @@ header img {
 }
 
 .banner h2 {
-  color: rgba(128,21,21);
+  color: rgba(128, 21, 21);
   width: 94%;
   margin-top: 32px;
   margin-left: 15px;
@@ -31,7 +31,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding-left: 0px;
-  background-color: rgba(170,57,57);
+  background-color: rgba(170, 57, 57);
   margin-top: 3px;
   margin-bottom: 0px;
 }
@@ -54,7 +54,7 @@ nav ul li:hover {
   text-align: center;
   width: 76rem;
   height: 22rem;
-  background-image: url('https://i.imgur.com/lAzIKHB.jpg');
+  background-image: url("https://i.imgur.com/lAzIKHB.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 3rem;
@@ -72,7 +72,7 @@ nav ul li:hover {
 main {
   margin: 3% 10%;
   padding: 4% 10%;
-  background-color:rgba(255,170,170);
+  background-color: rgba(255, 170, 170);
 }
 
 .sectiune h1 {
@@ -88,7 +88,7 @@ main {
   display: grid;
   grid-template-rows: 60px auto;
   grid-template-columns: 10fr 10fr;
-  justify-items:center;
+  justify-items: center;
 }
 
 footer a {
@@ -97,7 +97,8 @@ footer a {
   font-size: 25px;
 }
 
-form input, textarea {
+form input,
+textarea {
   display: table;
   margin: 0 auto;
   text-align: center;
